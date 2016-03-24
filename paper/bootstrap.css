@@ -6990,7 +6990,6 @@ button.close {
 }
 body {
   -webkit-font-smoothing: antialiased;
-  letter-spacing: .1px;
 }
 p {
   margin: 0 0 1em;
@@ -6998,7 +6997,6 @@ p {
 input,
 button {
   -webkit-font-smoothing: antialiased;
-  letter-spacing: .1px;
 }
 a {
   -webkit-transition: all 0.2s;
@@ -7519,4 +7517,13 @@ input[type="checkbox"]:disabled:checked:after,
 .carousel-caption h5,
 .carousel-caption h6 {
   color: inherit;
+}
+h1 {
+  letter-spacing: -2px;
+}
+h2 {
+  letter-spacing: -1px;
+}
+h3 {
+  letter-spacing: -0.5px;
 }
